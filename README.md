@@ -1,6 +1,6 @@
 # stream-concat-promise [![npm version](http://img.shields.io/npm/v/stream-concat-promise.svg?style=flat-square)](https://www.npmjs.org/package/stream-concat-promise)
 
-> Promie version of [concat-stream].
+> Promise version of [concat-stream].
 
 [concat-stream]: https://github.com/maxogden/concat-stream
 

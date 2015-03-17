@@ -1,7 +1,7 @@
 {
   "name": "stream-concat-promise",
-  "version": "1.0.0",
-  "description": "Promie version of concat-stream.",
+  "version": "1.0.1",
+  "description": "Promise version of concat-stream.",
   "license": {
     "type": "Unlicense",
     "url": "http://unlicense.org/"
