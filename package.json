@@ -1,0 +1,36 @@
+{
+  "name": "stream-concat-promise",
+  "version": "1.0.0",
+  "description": "Promie version of concat-stream.",
+  "license": {
+    "type": "Unlicense",
+    "url": "http://unlicense.org/"
+  },
+  "author": {
+    "name": "Valérian Galliat",
+    "url": "http://val.codejam.info/"
+  },
+  "files": [
+    "README.md",
+    "UNLICENSE",
+    "index.js",
+    "mixed.js"
+  ],
+  "homepage": "https://github.com/valeriangalliat/stream-concat-promise.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/valeriangalliat/stream-concat-promise.git"
+  },
+  "dependencies": {
+    "concat-stream": "^1.4.7",
+    "promise": "^6.1.0"
+  },
+  "devDependencies": {
+    "babel": "^4.4.5"
+  },
+  "scripts": {
+    "build": "babel src --out-dir .",
+    "prepublish": "$npm_package_scripts_build",
+    "test": "$npm_package_scripts_build && babel-node test.js"
+  }
+}
