@@ -2,10 +2,7 @@
   "name": "stream-concat-promise",
   "version": "1.0.1",
   "description": "Promise version of concat-stream.",
-  "license": {
-    "type": "Unlicense",
-    "url": "http://unlicense.org/"
-  },
+  "license": "Unlicense",
   "author": {
     "name": "Valérian Galliat",
     "url": "http://val.codejam.info/"
