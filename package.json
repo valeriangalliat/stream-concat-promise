@@ -2,6 +2,7 @@
   "name": "stream-concat-promise",
   "version": "1.0.2",
   "description": "Promise version of concat-stream.",
+  "homepage": "https://github.com/valeriangalliat/stream-concat-promise.git",
   "license": "Unlicense",
   "author": {
     "name": "Valérian Galliat",
@@ -13,10 +14,15 @@
     "index.js",
     "mixed.js"
   ],
-  "homepage": "https://github.com/valeriangalliat/stream-concat-promise.git",
   "repository": {
     "type": "git",
     "url": "https://github.com/valeriangalliat/stream-concat-promise.git"
+  },
+  "scripts": {
+    "build": "babel src --out-dir .",
+    "lint": "standard src/* test.js",
+    "prepublish": "npm run build",
+    "test": "npm run lint && npm run build && babel-node test.js"
   },
   "dependencies": {
     "concat-stream": "^1.4.7",
@@ -25,11 +31,5 @@
   "devDependencies": {
     "babel": "^4.4.5",
     "standard": "^4.0.1"
-  },
-  "scripts": {
-    "build": "babel src --out-dir .",
-    "lint": "standard src/* test.js",
-    "prepublish": "npm run build",
-    "test": "npm run lint && npm run build && babel-node test.js"
   }
 }
